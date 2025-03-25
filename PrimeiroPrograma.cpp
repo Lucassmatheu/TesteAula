@@ -10,6 +10,10 @@ int main()
 	// cout comando de saída de dado
 	// neste caso esta solicitando para imprimir na tela a mensagem "Primeiro Programa C++"
 	std::cout << "Primeiro Programa C++" << std::endl;
+	/*/ endl comando de quebra de linha
+	na frase ("string")	*/
 	system("pause");
+	system("color 5F");
+	// chama o shell windows para pausar a execução do programa
 	return 0;
 }// chave de fechamento da função main
