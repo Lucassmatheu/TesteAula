@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Aulas do Curso">
+      <UniqueIdentifier>{94c8fb2a-b2a1-41fb-a506-b893eafee420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exercicios">
+      <UniqueIdentifier>{63fd5f39-102d-48a4-b93a-4d16f7057a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ifndef">
+      <UniqueIdentifier>{b82fc280-be24-4f53-905d-de40883b60c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recebendo Dados">
+      <UniqueIdentifier>{1e2f09bb-a742-48f3-9a37-5d334d0d6c9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AprenderProgramar.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDasAulas.cpp">
+      <Filter>Aulas do Curso</Filter>
+    </ClCompile>
     <ClCompile Include="PrimeiroPrograma.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="RecebendoValores.cpp">
+      <Filter>Recebendo Dados</Filter>
+    </ClCompile>
+    <ClCompile Include="TresValoresReal.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aulas.h">
+      <Filter>ifndef</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
