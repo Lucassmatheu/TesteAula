@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,11 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Calculadora de Operações com Validação.cpp" />
+    <ClCompile Include="Contador de múltiplos.cpp" />
+    <ClCompile Include="Cálculo de Juros Simples.cpp" />
+    <ClCompile Include="Porcentagem.cpp" />
+    <ClCompile Include="Acesso com senha e usuário.cpp" />
     <ClCompile Include="AprenderProgramar.cpp" />
+    <ClCompile Include="Calculadora de Bhaskara.cpp" />
+    <ClCompile Include="Calcular Media Notas.cpp" />
+    <ClCompile Include="CalculodeImc.cpp" />
+    <ClCompile Include="ClassificarTriangulo.cpp" />
+    <ClCompile Include="Conversor de Temperatura.cpp" />
+    <ClCompile Include="Faixa de Idade.cpp" />
     <ClCompile Include="MainDasAulas.cpp" />
+    <ClCompile Include="MaiorIdade.cpp" />
+    <ClCompile Include="MultilplodDetres.cpp" />
+    <ClCompile Include="Negação de valor lógico .cpp" />
+    <ClCompile Include="NumerosParesEimpares.cpp" />
+    <ClCompile Include="Número dentro da faixa.cpp" />
+    <ClCompile Include="OperadoresLogicos.cpp" />
+    <ClCompile Include="Pode entrar.cpp" />
+    <ClCompile Include="Potência e Raiz Quadrada.cpp" />
+    <ClCompile Include="PrecendenciaDeOperadores.cpp" />
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
+    <ClCompile Include="Sistema de Alarme .cpp" />
+    <ClCompile Include="Soma até para.cpp" />
+    <ClCompile Include="Soma de pares com while.cpp" />
+    <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />
+    <ClCompile Include="Texto e caractere.cpp" />
     <ClCompile Include="TresValoresReal.cpp" />
+    <ClCompile Include="Verificador de números positivos.cpp" />
+    <ClCompile Include="VerificarNumeroPrimo.cpp" />
+    <ClCompile Include="Verificação de login.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h" />

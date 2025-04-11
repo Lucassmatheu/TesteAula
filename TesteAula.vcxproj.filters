@@ -33,13 +33,97 @@
     <ClCompile Include="MainDasAulas.cpp">
       <Filter>Aulas do Curso</Filter>
     </ClCompile>
-    <ClCompile Include="PrimeiroPrograma.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
     <ClCompile Include="RecebendoValores.cpp">
       <Filter>Recebendo Dados</Filter>
     </ClCompile>
     <ClCompile Include="TresValoresReal.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecendenciaDeOperadores.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="NumerosParesEimpares.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="MultilplodDetres.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Faixa de Idade.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Acesso com senha e usuário.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificarTriangulo.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="VerificarNumeroPrimo.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Verificação de login.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="OperadoresLogicos.cpp">
+      <Filter>Recebendo Dados</Filter>
+    </ClCompile>
+    <ClCompile Include="MaiorIdade.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Número dentro da faixa.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Alarme .cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Negação de valor lógico .cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculadora de Bhaskara.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Calcular Media Notas.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Cálculo de Juros Simples.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculodeImc.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversor de Temperatura.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Pode entrar.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Porcentagem.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Potência e Raiz Quadrada.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Soma até para.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabela de Tipos e Tamanhos .cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Texto e caractere.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Verificador de números positivos.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeiroPrograma.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculadora de Operações com Validação.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Contador de múltiplos.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Soma de pares com while.cpp">
       <Filter>Exercicios</Filter>
     </ClCompile>
   </ItemGroup>
