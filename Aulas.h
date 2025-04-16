@@ -13,5 +13,10 @@
 //void NumerosDentroDaFaixa();
 void SistemaDeAlarme();
 void SomaPares();
+void NumerosMultiplos();
+void contadorPositivos();
+void Positivos();
+void VariosNumero();
+void Ternario();
 
 #endif

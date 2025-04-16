@@ -25,6 +25,15 @@
     <Filter Include="Recebendo Dados">
       <UniqueIdentifier>{1e2f09bb-a742-48f3-9a37-5d334d0d6c9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exercicios de Encremento">
+      <UniqueIdentifier>{850e6a1d-78cb-4946-ba5d-c21868707fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mini Jogos">
+      <UniqueIdentifier>{bef8c861-cfbe-4707-9ba8-823ab1ce4345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operador Ternario">
+      <UniqueIdentifier>{2b4e6311-6ae9-42aa-ac62-164a8b792091}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -124,7 +133,43 @@
       <Filter>Exercicios</Filter>
     </ClCompile>
     <ClCompile Include="Soma de pares com while.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Números múltiplos.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Contador de positivos negativos e zeros.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Pares.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplos.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Média dos Números Positivos.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Contar números pares entre dois limites.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Mostrar números em ordem decrescente.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Verificador de divisibilidade.cpp">
       <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Pontuação por Divisibilidade.cpp">
+      <Filter>Mini Jogos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pontuação por vários números.cpp">
+      <Filter>Mini Jogos</Filter>
+    </ClCompile>
+    <ClCompile Include="OPerador Ternario.cpp">
+      <Filter>Operador Ternario</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -129,7 +129,17 @@
   <ItemGroup>
     <ClCompile Include="Calculadora de Operações com Validação.cpp" />
     <ClCompile Include="Contador de múltiplos.cpp" />
+    <ClCompile Include="Contador de positivos negativos e zeros.cpp" />
+    <ClCompile Include="Contar números pares entre dois limites.cpp" />
     <ClCompile Include="Cálculo de Juros Simples.cpp" />
+    <ClCompile Include="Mostrar números em ordem decrescente.cpp" />
+    <ClCompile Include="Multiplos.cpp" />
+    <ClCompile Include="Média dos Números Positivos.cpp" />
+    <ClCompile Include="Números múltiplos.cpp" />
+    <ClCompile Include="OPerador Ternario.cpp" />
+    <ClCompile Include="Pares.cpp" />
+    <ClCompile Include="Pontuação por Divisibilidade.cpp" />
+    <ClCompile Include="Pontuação por vários números.cpp" />
     <ClCompile Include="Porcentagem.cpp" />
     <ClCompile Include="Acesso com senha e usuário.cpp" />
     <ClCompile Include="AprenderProgramar.cpp" />
@@ -154,9 +164,11 @@
     <ClCompile Include="Sistema de Alarme .cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
+    <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp" />
     <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />
     <ClCompile Include="Texto e caractere.cpp" />
     <ClCompile Include="TresValoresReal.cpp" />
+    <ClCompile Include="Verificador de divisibilidade.cpp" />
     <ClCompile Include="Verificador de números positivos.cpp" />
     <ClCompile Include="VerificarNumeroPrimo.cpp" />
     <ClCompile Include="Verificação de login.cpp" />
