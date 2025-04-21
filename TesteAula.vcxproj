@@ -127,16 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Analisador de notas com for e condições.cpp" />
+    <ClCompile Include="Análise de números com for e operadores relacionais.cpp" />
     <ClCompile Include="Calculadora de Operações com Validação.cpp" />
+    <ClCompile Include="CategoriaIdade.cpp" />
+    <ClCompile Include="Classificador de números com while + switch + operadores relacionais.cpp" />
     <ClCompile Include="Contador de múltiplos.cpp" />
     <ClCompile Include="Contador de positivos negativos e zeros.cpp" />
+    <ClCompile Include="Contador Personalizado com for e while.cpp" />
     <ClCompile Include="Contar números pares entre dois limites.cpp" />
     <ClCompile Include="Cálculo de Juros Simples.cpp" />
+    <ClCompile Include="Jogo de Escolha com Switch.cpp" />
+    <ClCompile Include="MediaAlunos.cpp" />
     <ClCompile Include="Mostrar números em ordem decrescente.cpp" />
     <ClCompile Include="Multiplos.cpp" />
     <ClCompile Include="Média dos Números Positivos.cpp" />
     <ClCompile Include="Números múltiplos.cpp" />
     <ClCompile Include="OPerador Ternario.cpp" />
+    <ClCompile Include="OperadoresRelacionais.cpp" />
     <ClCompile Include="Pares.cpp" />
     <ClCompile Include="Pontuação por Divisibilidade.cpp" />
     <ClCompile Include="Pontuação por vários números.cpp" />
@@ -161,13 +169,17 @@
     <ClCompile Include="PrecendenciaDeOperadores.cpp" />
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
+    <ClCompile Include="Sistema de Acesso com Pontuação .cpp" />
     <ClCompile Include="Sistema de Alarme .cpp" />
+    <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
     <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp" />
+    <ClCompile Include="Switch\Case.cpp" />
     <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />
     <ClCompile Include="Texto e caractere.cpp" />
     <ClCompile Include="TresValoresReal.cpp" />
+    <ClCompile Include="Validador de sequência crescente.cpp" />
     <ClCompile Include="Verificador de divisibilidade.cpp" />
     <ClCompile Include="Verificador de números positivos.cpp" />
     <ClCompile Include="VerificarNumeroPrimo.cpp" />

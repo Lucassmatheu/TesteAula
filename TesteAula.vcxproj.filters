@@ -34,6 +34,12 @@
     <Filter Include="Operador Ternario">
       <UniqueIdentifier>{2b4e6311-6ae9-42aa-ac62-164a8b792091}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Switch/Case">
+      <UniqueIdentifier>{036373fb-f147-4723-98d1-0c3f2fb65bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operadores Relacionais">
+      <UniqueIdentifier>{aa5b890a-dca9-49f1-ba3d-2fe11c4d1584}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -170,6 +176,42 @@
     </ClCompile>
     <ClCompile Include="OPerador Ternario.cpp">
       <Filter>Operador Ternario</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch\Case.cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="CategoriaIdade.cpp">
+      <Filter>Operador Ternario</Filter>
+    </ClCompile>
+    <ClCompile Include="Contador Personalizado com for e while.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo de Escolha com Switch.cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaAlunos.cpp">
+      <Filter>Operador Ternario</Filter>
+    </ClCompile>
+    <ClCompile Include="OperadoresRelacionais.cpp">
+      <Filter>Operadores Relacionais</Filter>
+    </ClCompile>
+    <ClCompile Include="Análise de números com for e operadores relacionais.cpp">
+      <Filter>Operadores Relacionais</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Acesso com Pontuação .cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Analisador de notas com for e condições.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Classificador de números com while + switch + operadores relacionais.cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de pontuação por categoria.cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Validador de sequência crescente.cpp">
+      <Filter>Exercicios</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -11,12 +11,14 @@
 // OperadoresLogicos();
 //void MaiorIdade();
 //void NumerosDentroDaFaixa();
-void SistemaDeAlarme();
-void SomaPares();
-void NumerosMultiplos();
-void contadorPositivos();
-void Positivos();
-void VariosNumero();
-void Ternario();
-
+//void SistemaDeAlarme();
+//void SomaPares();
+//void NumerosMultiplos();
+//void contadorPositivos();
+//void Positivos();
+//void VariosNumero();
+//void Ternario();
+//void Case();
+//void Escolha();
+void SistemaPontuacao(); 
 #endif

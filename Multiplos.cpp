@@ -9,6 +9,10 @@ void multiplos()
 	std::cin >> limite;
 	for (int i = 1; i <= limite; i++) 
 	{
+		std::cout << "Digite um número: ";
+		std::cin >> numero;
+		std::cout << "Número digitado: " << numero << std::endl;
+		std::cout << "Número digitado: " << numero << std::endl;
 		if (i % 3 == 0)
 		{
 			std::cout << numero << " é múltiplo de 3" << std::endl;
