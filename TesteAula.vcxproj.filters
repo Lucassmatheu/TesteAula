@@ -40,6 +40,12 @@
     <Filter Include="Operadores Relacionais">
       <UniqueIdentifier>{aa5b890a-dca9-49f1-ba3d-2fe11c4d1584}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Verdadeiro Ou falso">
+      <UniqueIdentifier>{d7aa65d9-9909-44d8-8dd7-585f38db1d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="do while">
+      <UniqueIdentifier>{f1abbf17-00fa-4a48-8cf8-5b19b17c9b53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -211,6 +217,39 @@
       <Filter>Switch/Case</Filter>
     </ClCompile>
     <ClCompile Include="Validador de sequência crescente.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Classificador de idade com contador por faixa.cpp">
+      <Filter>Exercicios de Encremento</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculadora de operações múltiplas com switch.cpp">
+      <Filter>Switch/Case</Filter>
+    </ClCompile>
+    <ClCompile Include="Validador de acesso com contadores de condição.cpp">
+      <Filter>Verdadeiro Ou falso</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de pontuação com validações booleanas.cpp">
+      <Filter>Verdadeiro Ou falso</Filter>
+    </ClCompile>
+    <ClCompile Include="Verificador de senha e tentativas.cpp">
+      <Filter>Verdadeiro Ou falso</Filter>
+    </ClCompile>
+    <ClCompile Include="Validador de login com usuário e senha e tentativas limitadas.cpp">
+      <Filter>Verdadeiro Ou falso</Filter>
+    </ClCompile>
+    <ClCompile Include="Verificador de Números com do while.cpp">
+      <Filter>do while</Filter>
+    </ClCompile>
+    <ClCompile Include="Validador de idade.cpp">
+      <Filter>do while</Filter>
+    </ClCompile>
+    <ClCompile Include="Validação de acesso.cpp">
+      <Filter>do while</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de acesso com verificação de idade e código secreto.cpp">
+      <Filter>do while</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Acesso com Menu de Funções.cpp">
       <Filter>Exercicios</Filter>
     </ClCompile>
   </ItemGroup>

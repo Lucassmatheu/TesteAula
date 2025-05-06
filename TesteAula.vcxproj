@@ -130,7 +130,9 @@
     <ClCompile Include="Analisador de notas com for e condições.cpp" />
     <ClCompile Include="Análise de números com for e operadores relacionais.cpp" />
     <ClCompile Include="Calculadora de Operações com Validação.cpp" />
+    <ClCompile Include="Calculadora de operações múltiplas com switch.cpp" />
     <ClCompile Include="CategoriaIdade.cpp" />
+    <ClCompile Include="Classificador de idade com contador por faixa.cpp" />
     <ClCompile Include="Classificador de números com while + switch + operadores relacionais.cpp" />
     <ClCompile Include="Contador de múltiplos.cpp" />
     <ClCompile Include="Contador de positivos negativos e zeros.cpp" />
@@ -169,8 +171,11 @@
     <ClCompile Include="PrecendenciaDeOperadores.cpp" />
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
+    <ClCompile Include="Sistema de Acesso com Menu de Funções.cpp" />
     <ClCompile Include="Sistema de Acesso com Pontuação .cpp" />
+    <ClCompile Include="Sistema de acesso com verificação de idade e código secreto.cpp" />
     <ClCompile Include="Sistema de Alarme .cpp" />
+    <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
@@ -179,9 +184,15 @@
     <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />
     <ClCompile Include="Texto e caractere.cpp" />
     <ClCompile Include="TresValoresReal.cpp" />
+    <ClCompile Include="Validador de acesso com contadores de condição.cpp" />
+    <ClCompile Include="Validador de idade.cpp" />
+    <ClCompile Include="Validador de login com usuário e senha e tentativas limitadas.cpp" />
     <ClCompile Include="Validador de sequência crescente.cpp" />
+    <ClCompile Include="Validação de acesso.cpp" />
     <ClCompile Include="Verificador de divisibilidade.cpp" />
+    <ClCompile Include="Verificador de Números com do while.cpp" />
     <ClCompile Include="Verificador de números positivos.cpp" />
+    <ClCompile Include="Verificador de senha e tentativas.cpp" />
     <ClCompile Include="VerificarNumeroPrimo.cpp" />
     <ClCompile Include="Verificação de login.cpp" />
   </ItemGroup>

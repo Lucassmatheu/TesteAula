@@ -21,4 +21,10 @@
 //void Case();
 //void Escolha();
 void SistemaPontuacao(); 
+void calculadoraMultipla();
+void Pontuacas();
+void ValidadorIdade();
+void ValidadorAcessos();
+void AcessoIdade();
+void sistemaAcesso();
 #endif

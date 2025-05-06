@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Aulas.h"
 
-void Validador()
+static void Validador()
 {
     int limite, numero, anterior;
     bool crescente = true;
