@@ -59,13 +59,12 @@ void sistemaAcesso()
 					{
 						break;
 					}
-				}
-			
+				}			
 				break;
 			case 5:
-				std::cout << "Saindo";
-			
+				std::cout << "Saindo...\n";			
 			default:
+				std::cout << "Opção inválida.\n";
 				break;
 			}
 

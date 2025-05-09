@@ -27,4 +27,9 @@ void ValidadorIdade();
 void ValidadorAcessos();
 void AcessoIdade();
 void sistemaAcesso();
+void FuncaoSistemaAcesso();
+void Funcoes();
+void Jogo();
+void sistemaPrincipal();
+void JogoPricipal();
 #endif

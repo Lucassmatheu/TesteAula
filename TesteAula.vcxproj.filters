@@ -46,6 +46,9 @@
     <Filter Include="do while">
       <UniqueIdentifier>{f1abbf17-00fa-4a48-8cf8-5b19b17c9b53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Funçoes">
+      <UniqueIdentifier>{ab174ed5-ad16-4200-a913-30b913ec4a66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -251,6 +254,24 @@
     </ClCompile>
     <ClCompile Include="Sistema de Acesso com Menu de Funções.cpp">
       <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Crie um sistema de gerenciamento de usuários.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Funcoes.cpp">
+      <Filter>Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Avaliação de Funcionário.cpp">
+      <Filter>Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="CombateRPG.cpp">
+      <Filter>Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="Criar um sistema de missão.cpp">
+      <Filter>Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="pequeno sistema de batalha.cpp">
+      <Filter>Funçoes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
