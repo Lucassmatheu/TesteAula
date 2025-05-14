@@ -49,6 +49,9 @@
     <Filter Include="Funçoes">
       <UniqueIdentifier>{ab174ed5-ad16-4200-a913-30b913ec4a66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Prototipos de Funçoes">
+      <UniqueIdentifier>{4c3b91e3-9de6-4517-a82c-0def378e34ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -273,10 +276,25 @@
     <ClCompile Include="pequeno sistema de batalha.cpp">
       <Filter>Funçoes</Filter>
     </ClCompile>
+    <ClCompile Include="Simulação de Treinamento de Personagem.cpp">
+      <Filter>Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="Protótipos de Função.cpp">
+      <Filter>Prototipos de Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="IMpar ou par .cpp">
+      <Filter>Prototipos de Funçoes</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalha e Progresso do Jogador.cpp">
+      <Filter>Mini Jogos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">
       <Filter>ifndef</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sistema de RPG com Treinamento" />
   </ItemGroup>
 </Project>

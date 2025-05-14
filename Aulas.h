@@ -32,4 +32,8 @@ void Funcoes();
 void Jogo();
 void sistemaPrincipal();
 void JogoPricipal();
+void SiJogado();
+void numeropares();
+void menuJogo();
+
 #endif
