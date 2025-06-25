@@ -4,7 +4,7 @@
 
 static void executarBatalha(int& energiaJogador, int& energiaInimigo);
 
-void Login(std::string nome, int nivel, int energia, bool acesso = false)
+static void Login(std::string nome, int nivel, int energia, bool acesso = false)
 {
   std::cout << "Digite seu nome: ";
   std::cin >> nome;

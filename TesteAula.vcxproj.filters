@@ -52,6 +52,12 @@
     <Filter Include="Prototipos de Funçoes">
       <UniqueIdentifier>{4c3b91e3-9de6-4517-a82c-0def378e34ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ponteiro">
+      <UniqueIdentifier>{e6460b62-70df-4506-9b07-da82db1f3263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ponteiro\Exercicios">
+      <UniqueIdentifier>{9a173aee-a550-42ae-b281-d52447eadbeb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -287,6 +293,21 @@
     </ClCompile>
     <ClCompile Include="Batalha e Progresso do Jogador.cpp">
       <Filter>Mini Jogos</Filter>
+    </ClCompile>
+    <ClCompile Include="VariavelPonteiro.cpp">
+      <Filter>Ponteiro</Filter>
+    </ClCompile>
+    <ClCompile Include="PonteiroInteiro.cpp">
+      <Filter>Ponteiro</Filter>
+    </ClCompile>
+    <ClCompile Include="PonteiroBasico.cpp">
+      <Filter>Ponteiro\Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Manipulando Valores com Ponteiros.cpp">
+      <Filter>Ponteiro\Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Aventura com Ponteiros.cpp">
+      <Filter>Ponteiro\Exercicios</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

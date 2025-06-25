@@ -35,5 +35,8 @@ void JogoPricipal();
 void SiJogado();
 void numeropares();
 void menuJogo();
+void VariavelPonteiro();
+void ponteiroInteiro();
+void menu();
 
 #endif

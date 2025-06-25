@@ -1,7 +1,7 @@
 #include  <iostream>
 #include "Aulas.h"
 
-void Pontuacao() 
+static void Pontuacao()
 {
 	int numero, pontos;
 	std::cout << "Digite um número: ";

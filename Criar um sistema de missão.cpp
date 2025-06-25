@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Aulas.h"
 
-bool AcessoMissao(std::string nome, int nivel, int energia, bool ItemEspecia) 
+static bool AcessoMissao(std::string nome, int nivel, int energia, bool ItemEspecia)
 {
 	int numero;
 		std::cout << "Você e o Lucas (1 - sim/ 0 - não).\n";
