@@ -37,6 +37,7 @@ void numeropares();
 void menuJogo();
 void VariavelPonteiro();
 void ponteiroInteiro();
-void menu();
+
+void MenuPrincipalRPG();
 
 #endif

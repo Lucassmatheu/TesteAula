@@ -2,7 +2,7 @@
 #include "Aulas.h"
 
 
-void Ternario()
+static void Ternario()
 {
 	double MaiorNumero, num01, num02;
 

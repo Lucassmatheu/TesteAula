@@ -161,38 +161,38 @@ static void MenuPrincipal()
 int energia = 0, experiencia = 0, opcao = 0, energiaInimigo = 0; 
 std::string nome; // Adicionado para armazenar o nome do personagem
 int nivel = 0;    // Adicionado para armazenar o nível do personagem
-do
-{
-	std::cout << "[1] Cadastrar personagem \n[2] Treinar para ganhar experiência \n";
-	std::cout << "[3] Participar de batalhas\n[4] Ver seu status \n[5] Sair do jogo\n";
-	std::cin >> opcao;
-
-	switch (opcao)
+	do
 	{
-	case 1:
-		cadastrarPersonagem(nome, nivel, energia, experiencia); 
-		break;
-	case 2:
-		energia = 100;
-		experiencia = 0;
-		iniciarTreinamento(&energia, &experiencia);
-		break;
-	case 3:
-		energia = 100;
-		energiaInimigo = 40;
-		iniciarBatalha(energia, energiaInimigo);
-		break;
-	case 4:
-		verStatus(energia, experiencia);
-		break;
-	case 5:
-		std::cout << "Saindo do jogo...\n";
-		return;
-	default:
-		std::cout << "Opção inválida. Tente novamente.\n";
-		break;
-	}
+		std::cout << "[1] Cadastrar personagem \n[2] Treinar para ganhar experiência \n";
+		std::cout << "[3] Participar de batalhas\n[4] Ver seu status \n[5] Sair do jogo\n";
+		std::cin >> opcao;
 
-} while (opcao != 5);
+		switch (opcao)
+		{
+			case 1:
+					cadastrarPersonagem(nome, nivel, energia, experiencia); 
+				break;
+			case 2:
+					energia = 100;
+					experiencia = 0;
+					iniciarTreinamento(&energia, &experiencia);
+				break;
+			case 3:
+					energia = 100;
+					energiaInimigo = 40;
+					iniciarBatalha(energia, energiaInimigo);
+				break;
+			case 4:
+					verStatus(energia, experiencia);
+				break;
+			case 5:
+					std::cout << "Saindo do jogo...\n";
+				return;
+			default:
+				std::cout << "Opção inválida. Tente novamente.\n";
+				break;
+		}
+
+	} while (opcao != 5);
 }
 

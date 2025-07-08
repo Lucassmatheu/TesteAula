@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include "Aulas.h"
 
-void contadorPositivoss()
+static void contadorPositivoss()
 {
 /*
   Este programa faz um contador em duas etapas:

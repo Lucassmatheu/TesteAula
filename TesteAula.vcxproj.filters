@@ -309,6 +309,15 @@
     <ClCompile Include="Sistema de Aventura com Ponteiros.cpp">
       <Filter>Ponteiro\Exercicios</Filter>
     </ClCompile>
+    <ClCompile Include="Simulador de Aprimoramento com Ponteiros.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulador de Exploração e Missões.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="SISTEMA DE LOJA RPG .cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">

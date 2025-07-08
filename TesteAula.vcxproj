@@ -182,6 +182,8 @@
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="Protótipos de Função.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
+    <ClCompile Include="Simulador de Aprimoramento com Ponteiros.cpp" />
+    <ClCompile Include="Simulador de Exploração e Missões.cpp" />
     <ClCompile Include="Simulação de Treinamento de Personagem.cpp" />
     <ClCompile Include="Sistema de Acesso com Menu de Funções.cpp" />
     <ClCompile Include="Sistema de Acesso com Pontuação .cpp" />
@@ -189,6 +191,7 @@
     <ClCompile Include="Sistema de Alarme .cpp" />
     <ClCompile Include="Sistema de Avaliação de Funcionário.cpp" />
     <ClCompile Include="Sistema de Aventura com Ponteiros.cpp" />
+    <ClCompile Include="SISTEMA DE LOJA RPG .cpp" />
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Soma até para.cpp" />
