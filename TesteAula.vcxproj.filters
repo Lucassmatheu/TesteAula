@@ -58,6 +58,9 @@
     <Filter Include="Ponteiro\Exercicios">
       <UniqueIdentifier>{9a173aee-a550-42ae-b281-d52447eadbeb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arrays vetores e matrizes">
+      <UniqueIdentifier>{60fda35d-6c1c-4cb0-b11f-0d971c976da0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -317,6 +320,15 @@
     </ClCompile>
     <ClCompile Include="SISTEMA DE LOJA RPG .cpp">
       <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de RPG com Missão de Caça.cpp">
+      <Filter>Exercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ArraysVetores.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="RPG com Arrays.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

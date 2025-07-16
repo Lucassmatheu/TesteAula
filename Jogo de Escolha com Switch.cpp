@@ -53,7 +53,7 @@ Técnicas usadas:
 	}
 	else if (energia == 0)
 	{
-		std::cout << "1 - ATACAR \ 2 - DEFENDER \ 3 - FUGIR \n";
+		std::cout << "1 - ATACAR \n 2 - DEFENDER \n 3 - FUGIR \n";
 		std::cin >> comandos2;
 			if (comandos2 == 1)
 			{

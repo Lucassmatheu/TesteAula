@@ -38,6 +38,8 @@ void menuJogo();
 void VariavelPonteiro();
 void ponteiroInteiro();
 
-void MenuPrincipalRPG();
+//void MenuPrincipalRPG();
+void Vetores();
+
 
 #endif

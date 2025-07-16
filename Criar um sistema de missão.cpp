@@ -4,30 +4,34 @@
 static bool AcessoMissao(std::string nome, int nivel, int energia, bool ItemEspecia)
 {
 	int numero;
-		std::cout << "Você e o Lucas (1 - sim/ 0 - não).\n";
-		std::cin >> numero;
-		if (numero == 1) 
+	std::cout << "Você e o Lucas (1 - sim/ 0 - não).\n";
+	std::cin >> numero;
+
+	if (numero == 1)
+	{
+		if (nivel >= 5 && energia <= 20)
 		{
-			if (nivel >= 5 && energia <= 20) 
-			{
-				ItemEspecia = true;
-				return true;	
-			}
+			ItemEspecia = true;
+			return true;
 		}
-		else if (numero == 0) 
+		else
 		{
-			std::cout << "Você não pode fazer a missão com o Lucas.\n";
+			std::cout << "Você não tem nível ou energia suficiente para a missão.\n";
 			return false;
 		}
-		else 
-		{
-			std::cout << "Opção inválida.\n";
-			return false;
-		}
-
-
-
+	}
+	else if (numero == 0)
+	{
+		std::cout << "Você não pode fazer a missão com o Lucas.\n";
+		return false;
+	}
+	else
+	{
+		std::cout << "Opção inválida.\n";
+		return false;
+	}
 }
+
 static void ExecutarMissao(int dificuldade, int energia)
 {
 	do

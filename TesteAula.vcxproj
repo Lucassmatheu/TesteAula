@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Analisador de notas com for e condições.cpp" />
     <ClCompile Include="Análise de números com for e operadores relacionais.cpp" />
+    <ClCompile Include="ArraysVetores.cpp" />
     <ClCompile Include="Batalha e Progresso do Jogador.cpp" />
     <ClCompile Include="Calculadora de Operações com Validação.cpp" />
     <ClCompile Include="Calculadora de operações múltiplas com switch.cpp" />
@@ -182,6 +183,7 @@
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="Protótipos de Função.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
+    <ClCompile Include="RPG com Arrays.cpp" />
     <ClCompile Include="Simulador de Aprimoramento com Ponteiros.cpp" />
     <ClCompile Include="Simulador de Exploração e Missões.cpp" />
     <ClCompile Include="Simulação de Treinamento de Personagem.cpp" />
@@ -194,6 +196,7 @@
     <ClCompile Include="SISTEMA DE LOJA RPG .cpp" />
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
+    <ClCompile Include="Sistema de RPG com Missão de Caça.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
     <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp" />

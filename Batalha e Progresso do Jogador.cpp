@@ -119,7 +119,7 @@ void iniciarTreino(int& energia, int& experiencia)
 				std::cout << "Descanso concluído! Energia: " << energia << "\n";
 				if (energia > 100)
 				{
-					energia == 100;
+					energia = 100;
 					std::cout << "Energia máxima atingida!\n";
 				}
 			
