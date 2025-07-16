@@ -144,6 +144,8 @@
     <ClCompile Include="Criar um sistema de missão.cpp" />
     <ClCompile Include="Crie um sistema de gerenciamento de usuários.cpp" />
     <ClCompile Include="Cálculo de Juros Simples.cpp" />
+    <ClCompile Include="Exercício – Média de Notas com Ponteiro.cpp" />
+    <ClCompile Include="Exercício.cpp" />
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="IMpar ou par .cpp" />
     <ClCompile Include="Jogo de Escolha com Switch.cpp" />
@@ -181,6 +183,7 @@
     <ClCompile Include="Potência e Raiz Quadrada.cpp" />
     <ClCompile Include="PrecendenciaDeOperadores.cpp" />
     <ClCompile Include="PrimeiroPrograma.cpp" />
+    <ClCompile Include="programas bem simples.cpp" />
     <ClCompile Include="Protótipos de Função.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
     <ClCompile Include="RPG com Arrays.cpp" />

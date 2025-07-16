@@ -330,6 +330,15 @@
     <ClCompile Include="RPG com Arrays.cpp">
       <Filter>Arrays vetores e matrizes</Filter>
     </ClCompile>
+    <ClCompile Include="programas bem simples.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercício.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercício – Média de Notas com Ponteiro.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">
