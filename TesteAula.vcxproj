@@ -144,10 +144,15 @@
     <ClCompile Include="Criar um sistema de missão.cpp" />
     <ClCompile Include="Crie um sistema de gerenciamento de usuários.cpp" />
     <ClCompile Include="Cálculo de Juros Simples.cpp" />
+    <ClCompile Include="Exercício Somar Itens de um Inventário.cpp" />
     <ClCompile Include="Exercício – Média de Notas com Ponteiro.cpp" />
     <ClCompile Include="Exercício.cpp" />
+    <ClCompile Include="Flechas e Dano Total.cpp" />
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="IMpar ou par .cpp" />
+    <ClCompile Include="Inventário de Armas e Dano Total.cpp" />
+    <ClCompile Include="Inventário RPG com preços.cpp" />
+    <ClCompile Include="Jogo da Foca.cpp" />
     <ClCompile Include="Jogo de Escolha com Switch.cpp" />
     <ClCompile Include="Manipulando Valores com Ponteiros.cpp" />
     <ClCompile Include="MediaAlunos.cpp" />
@@ -181,6 +186,7 @@
     <ClCompile Include="OperadoresLogicos.cpp" />
     <ClCompile Include="Pode entrar.cpp" />
     <ClCompile Include="Potência e Raiz Quadrada.cpp" />
+    <ClCompile Include="Poções de Cura.cpp" />
     <ClCompile Include="PrecendenciaDeOperadores.cpp" />
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="programas bem simples.cpp" />

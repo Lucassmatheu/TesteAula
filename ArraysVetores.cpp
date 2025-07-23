@@ -3,12 +3,12 @@
 
 void Vetores()
 {
-	float notas[4]{}, OpcaoNotas, media{}, soma{};
+	float notas[5]{}, OpcaoNotas, media{}, soma{};
 	
 	std::cout << "Digite as notas dos alunos (6 notas):\n";
 	std::cin >> OpcaoNotas;
 	// Preenchendo o vetor com as notas
-	for (int i = 0; i <= 4; i++) // Alterado para começar de 0 e ir até 5
+	for (int i = 0; i < 5; i++) // Alterado para começar de 0 e ir até 5
 	{
 		std::cout << "\nDigite a nota " << (i + 1) << ": ";
 		std::cin >> notas[i];
@@ -18,7 +18,7 @@ void Vetores()
 	}
 	media = soma / 6; // Calculando a média
 	std::cout << "Notas dos alunos:\n";
-	for (int i = 0; i <= 4; i++) // Alterado para começar de 0 e ir até 5
+	for (int i = 0; i < 5; i++) // Alterado para começar de 0 e ir até 5
 	{
 		std::cout << "Nota " << (i + 1) << ": " << notas[i] << "\n";
 	}

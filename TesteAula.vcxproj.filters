@@ -339,6 +339,24 @@
     <ClCompile Include="Exercício – Média de Notas com Ponteiro.cpp">
       <Filter>Arrays vetores e matrizes</Filter>
     </ClCompile>
+    <ClCompile Include="Exercício Somar Itens de um Inventário.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário RPG com preços.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário de Armas e Dano Total.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Poções de Cura.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Flechas e Dano Total.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo da Foca.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">

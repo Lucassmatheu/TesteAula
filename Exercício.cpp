@@ -31,6 +31,7 @@ void ArrayCincoPonteiro()
     std::cout << "Números digitados:\n";
     for (int j = 0; j < 5; j++)
     {
+		// Corrigido: Exibe o número usando o ponteiro
         std::cout << "Número " << (j + 1) << ": " << *(pNumero + j) << "\n";
     }
 

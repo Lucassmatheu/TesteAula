@@ -2,11 +2,13 @@
 #include "Aulas.h"  
  
 void menuRPG();
-
+void InventarioArmaDano();
+void FlechaDanoToTal();
+void jogar();
 // Função para calcular a soma dos números pares de 1 até um número fornecido pelo usuário  
 int main()  
 {  
-    menuRPG();
+   jogar();
     //int x = 5;  
     //int& ref = x;   // ref é um apelido para x  
     //int* ptr = &x;  // ptr guarda o endereço de x  
