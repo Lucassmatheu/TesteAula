@@ -357,6 +357,69 @@
     <ClCompile Include="Jogo da Foca.cpp">
       <Filter>Arrays vetores e matrizes</Filter>
     </ClCompile>
+    <ClCompile Include="Simulador de Arena.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Loja de Itens e Inventário.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Loja de Habilidades do Jogador.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Desbloqueio de Habilidades em Cadeia.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário Dinâmico com Ponteiros e Referências.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário Dinâmico com Alocação Dinâmica e Funções.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário Dinâmico de Equipamentos com struc.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário de Equipamentos para Vários Jogadores .cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Batalha entre Jogadores .cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking de Pontuação.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Energia e Experiência.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Login.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Notas de Alunos.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo de Batalha de Equipes.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Estoque Simples de Itens.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Paasando Arrays Para Funções.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Array Invertidos.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking de Scores.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Vagas de Estacionamento.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadastro e Consulta de Produtos.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Votação para o Melhor Jogador.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">
@@ -365,5 +428,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Sistema de RPG com Treinamento" />
+    <None Include="Inventário Dinâmico de Equipamentoscom Struct" />
+    <None Include="Inventário Dinâmico de EquipamentosPonteiros e Operadores" />
   </ItemGroup>
 </Project>

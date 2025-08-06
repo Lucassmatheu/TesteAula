@@ -40,6 +40,7 @@ void ponteiroInteiro();
 
 //void MenuPrincipalRPG();
 void Vetores();
+void MostrarVetor();
 
 
 #endif

@@ -127,6 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array Invertidos.cpp" />
+    <ClCompile Include="Cadastro e Consulta de Produtos.cpp" />
+    <ClCompile Include="Controle de Notas de Alunos.cpp" />
+    <ClCompile Include="Controle de Vagas de Estacionamento.cpp" />
+    <ClCompile Include="Estoque Simples de Itens.cpp" />
+    <ClCompile Include="Inventário de Equipamentos para Vários Jogadores .cpp" />
+    <ClCompile Include="Inventário Dinâmico de Equipamentos com struc.cpp" />
     <ClCompile Include="Analisador de notas com for e condições.cpp" />
     <ClCompile Include="Análise de números com for e operadores relacionais.cpp" />
     <ClCompile Include="ArraysVetores.cpp" />
@@ -151,9 +158,14 @@
     <ClCompile Include="Funcoes.cpp" />
     <ClCompile Include="IMpar ou par .cpp" />
     <ClCompile Include="Inventário de Armas e Dano Total.cpp" />
+    <ClCompile Include="Inventário Dinâmico com Alocação Dinâmica e Funções.cpp" />
+    <ClCompile Include="Inventário Dinâmico com Ponteiros e Referências.cpp" />
     <ClCompile Include="Inventário RPG com preços.cpp" />
     <ClCompile Include="Jogo da Foca.cpp" />
+    <ClCompile Include="Jogo de Batalha de Equipes.cpp" />
     <ClCompile Include="Jogo de Escolha com Switch.cpp" />
+    <ClCompile Include="Loja de Habilidades do Jogador.cpp" />
+    <ClCompile Include="Loja de Itens e Inventário.cpp" />
     <ClCompile Include="Manipulando Valores com Ponteiros.cpp" />
     <ClCompile Include="MediaAlunos.cpp" />
     <ClCompile Include="Mostrar números em ordem decrescente.cpp" />
@@ -162,6 +174,7 @@
     <ClCompile Include="Números múltiplos.cpp" />
     <ClCompile Include="OPerador Ternario.cpp" />
     <ClCompile Include="OperadoresRelacionais.cpp" />
+    <ClCompile Include="Paasando Arrays Para Funções.cpp" />
     <ClCompile Include="Pares.cpp" />
     <ClCompile Include="pequeno sistema de batalha.cpp" />
     <ClCompile Include="PonteiroBasico.cpp" />
@@ -191,9 +204,12 @@
     <ClCompile Include="PrimeiroPrograma.cpp" />
     <ClCompile Include="programas bem simples.cpp" />
     <ClCompile Include="Protótipos de Função.cpp" />
+    <ClCompile Include="Ranking de Pontuação.cpp" />
+    <ClCompile Include="Ranking de Scores.cpp" />
     <ClCompile Include="RecebendoValores.cpp" />
     <ClCompile Include="RPG com Arrays.cpp" />
     <ClCompile Include="Simulador de Aprimoramento com Ponteiros.cpp" />
+    <ClCompile Include="Simulador de Arena.cpp" />
     <ClCompile Include="Simulador de Exploração e Missões.cpp" />
     <ClCompile Include="Simulação de Treinamento de Personagem.cpp" />
     <ClCompile Include="Sistema de Acesso com Menu de Funções.cpp" />
@@ -202,6 +218,10 @@
     <ClCompile Include="Sistema de Alarme .cpp" />
     <ClCompile Include="Sistema de Avaliação de Funcionário.cpp" />
     <ClCompile Include="Sistema de Aventura com Ponteiros.cpp" />
+    <ClCompile Include="Sistema de Batalha entre Jogadores .cpp" />
+    <ClCompile Include="Sistema de Desbloqueio de Habilidades em Cadeia.cpp" />
+    <ClCompile Include="Sistema de Energia e Experiência.cpp" />
+    <ClCompile Include="Sistema de Login.cpp" />
     <ClCompile Include="SISTEMA DE LOJA RPG .cpp" />
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
@@ -225,11 +245,14 @@
     <ClCompile Include="Verificador de senha e tentativas.cpp" />
     <ClCompile Include="VerificarNumeroPrimo.cpp" />
     <ClCompile Include="Verificação de login.cpp" />
+    <ClCompile Include="Votação para o Melhor Jogador.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Inventário Dinâmico de Equipamentoscom Struct" />
+    <None Include="Inventário Dinâmico de EquipamentosPonteiros e Operadores" />
     <None Include="Sistema de RPG com Treinamento" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
