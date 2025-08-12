@@ -8,6 +8,6 @@ void menuArray();
 
 int main()  
 {  
-	menuArray();
+		menuArray();
 
 }

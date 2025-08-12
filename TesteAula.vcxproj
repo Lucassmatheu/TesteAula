@@ -128,8 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Array Invertidos.cpp" />
+    <ClCompile Include="Busca de Valor.cpp" />
+    <ClCompile Include="Cadastro e Busca de Telefone.cpp" />
     <ClCompile Include="Cadastro e Consulta de Produtos.cpp" />
+    <ClCompile Include="Contando Números Pares.cpp" />
+    <ClCompile Include="Controle de Carrinhos de Compras no Mercado.cpp" />
+    <ClCompile Include="Controle de Estoque de Livros.cpp" />
+    <ClCompile Include="Controle de Frequência de Alunos.cpp" />
     <ClCompile Include="Controle de Notas de Alunos.cpp" />
+    <ClCompile Include="Controle de Temperaturas Diárias.cpp" />
     <ClCompile Include="Controle de Vagas de Estacionamento.cpp" />
     <ClCompile Include="Estoque Simples de Itens.cpp" />
     <ClCompile Include="Inventário de Equipamentos para Vários Jogadores .cpp" />
@@ -161,15 +168,18 @@
     <ClCompile Include="Inventário Dinâmico com Alocação Dinâmica e Funções.cpp" />
     <ClCompile Include="Inventário Dinâmico com Ponteiros e Referências.cpp" />
     <ClCompile Include="Inventário RPG com preços.cpp" />
+    <ClCompile Include="istema de Gestão de Estoque de Produtos Relatório de Vendas.cpp" />
     <ClCompile Include="Jogo da Foca.cpp" />
     <ClCompile Include="Jogo de Batalha de Equipes.cpp" />
     <ClCompile Include="Jogo de Escolha com Switch.cpp" />
+    <ClCompile Include="Jogo de Palavras Secretas com Arrays.cpp" />
     <ClCompile Include="Loja de Habilidades do Jogador.cpp" />
     <ClCompile Include="Loja de Itens e Inventário.cpp" />
     <ClCompile Include="Manipulando Valores com Ponteiros.cpp" />
     <ClCompile Include="MediaAlunos.cpp" />
     <ClCompile Include="Mostrar números em ordem decrescente.cpp" />
     <ClCompile Include="Multiplos.cpp" />
+    <ClCompile Include="Média das Notas.cpp" />
     <ClCompile Include="Média dos Números Positivos.cpp" />
     <ClCompile Include="Números múltiplos.cpp" />
     <ClCompile Include="OPerador Ternario.cpp" />
@@ -219,6 +229,7 @@
     <ClCompile Include="Sistema de Avaliação de Funcionário.cpp" />
     <ClCompile Include="Sistema de Aventura com Ponteiros.cpp" />
     <ClCompile Include="Sistema de Batalha entre Jogadores .cpp" />
+    <ClCompile Include="Sistema de Busca de Produto por Índice.cpp" />
     <ClCompile Include="Sistema de Desbloqueio de Habilidades em Cadeia.cpp" />
     <ClCompile Include="Sistema de Energia e Experiência.cpp" />
     <ClCompile Include="Sistema de Login.cpp" />
@@ -228,6 +239,8 @@
     <ClCompile Include="Sistema de RPG com Missão de Caça.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
+    <ClCompile Include="Soma dos Elementos.cpp" />
+    <ClCompile Include="Soma dos Pares e Média dos Ímpares.cpp" />
     <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp" />
     <ClCompile Include="Switch\Case.cpp" />
     <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />

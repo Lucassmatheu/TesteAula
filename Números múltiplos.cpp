@@ -34,11 +34,13 @@ void NumerosMultiplos()
 			Esse tipo de for é bom quando eu já sei o ponto de partida, o fim e o passo que quero dar a cada volta.
 		*/
 	{
-		
+		// Verifica se o número é múltiplo do número digitado	
 		if (i % numero == 0) {
+			// Se for múltiplo, incrementa a contagem e exibe o número
 			contagem++;
 			std::cout << i << " é múltiplo de " << numero << std::endl;
 		}
+		// Verifica se o número é menor ou igual a zero
 		if (numero <= 0) {
 			std::cout << "Digite um número maior que zero!" << std::endl;
 			return;

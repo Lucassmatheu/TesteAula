@@ -61,6 +61,9 @@
     <Filter Include="Arrays vetores e matrizes">
       <UniqueIdentifier>{60fda35d-6c1c-4cb0-b11f-0d971c976da0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arrays vetores e matrizes\BuscarIndex">
+      <UniqueIdentifier>{6d5ee5e7-e2ad-4108-8317-b681d6bd1580}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -419,6 +422,45 @@
     </ClCompile>
     <ClCompile Include="Votação para o Melhor Jogador.cpp">
       <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Média das Notas.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo de Palavras Secretas com Arrays.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadastro e Busca de Telefone.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Temperaturas Diárias.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Soma dos Elementos.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Contando Números Pares.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Busca de Valor.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Soma dos Pares e Média dos Ímpares.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Estoque de Livros.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Frequência de Alunos.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle de Carrinhos de Compras no Mercado.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="istema de Gestão de Estoque de Produtos Relatório de Vendas.cpp">
+      <Filter>Arrays vetores e matrizes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Busca de Produto por Índice.cpp">
+      <Filter>Arrays vetores e matrizes\BuscarIndex</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
