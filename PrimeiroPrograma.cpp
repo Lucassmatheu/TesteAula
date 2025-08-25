@@ -3,11 +3,12 @@
 
 void PreencherArray();
 void menuArray();
+void MenuEstoque(std::string& nomes, int* totais);
 
-
+	
 
 int main()  
 {  
-		menuArray();
+	
 
 }

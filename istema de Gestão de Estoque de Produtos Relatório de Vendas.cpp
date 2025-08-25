@@ -71,7 +71,7 @@ static void MOSTRAPrRODUTO(std::string* NomeProduto, int qtdProdutos, float preç
 	}
 }
 
-void BuscarProduto(std::string* NomeProduto, int qtdProdutos, float preçoUnitario, int& total) 
+static void BuscarProduto(std::string* NomeProduto, int qtdProdutos, float preçoUnitario, int& total)
 {
 	std::string DigiteNomeProduto;
 
@@ -132,9 +132,9 @@ static void RelatorioVendas(float soma)
 void MenuMercado(std::string* NomeProduto, int qtdProdutos, float preçoUnitario, int& total)
 {
 
-	int total = 0;
+	
 	int opcao;
-	std::string NomeProduto[2];
+
 	do 
 	{
 		std::cout << "Menu de Mercado:\n";

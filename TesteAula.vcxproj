@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Agenda de Contatos com buscarIndice.cpp" />
     <ClCompile Include="Array Invertidos.cpp" />
+    <ClCompile Include="Atualização de Estoque por Filial.cpp" />
     <ClCompile Include="Busca de Valor.cpp" />
     <ClCompile Include="Cadastro e Busca de Telefone.cpp" />
     <ClCompile Include="Cadastro e Consulta de Produtos.cpp" />
@@ -175,9 +177,12 @@
     <ClCompile Include="Jogo de Palavras Secretas com Arrays.cpp" />
     <ClCompile Include="Loja de Habilidades do Jogador.cpp" />
     <ClCompile Include="Loja de Itens e Inventário.cpp" />
+    <ClCompile Include="Maior e Menor elemento da matriz.cpp" />
     <ClCompile Include="Manipulando Valores com Ponteiros.cpp" />
+    <ClCompile Include="Matriz e Diagonal Principal.cpp" />
     <ClCompile Include="MediaAlunos.cpp" />
     <ClCompile Include="Mostrar números em ordem decrescente.cpp" />
+    <ClCompile Include="Multiplicação de Matrizes 3x3.cpp" />
     <ClCompile Include="Multiplos.cpp" />
     <ClCompile Include="Média das Notas.cpp" />
     <ClCompile Include="Média dos Números Positivos.cpp" />
@@ -232,19 +237,23 @@
     <ClCompile Include="Sistema de Busca de Produto por Índice.cpp" />
     <ClCompile Include="Sistema de Desbloqueio de Habilidades em Cadeia.cpp" />
     <ClCompile Include="Sistema de Energia e Experiência.cpp" />
+    <ClCompile Include="Sistema de Estoque MultiFiliais.cpp" />
     <ClCompile Include="Sistema de Login.cpp" />
     <ClCompile Include="SISTEMA DE LOJA RPG .cpp" />
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Sistema de RPG com Missão de Caça.cpp" />
     <ClCompile Include="Soma até para.cpp" />
+    <ClCompile Include="Soma de duas matrizes.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
     <ClCompile Include="Soma dos Elementos.cpp" />
     <ClCompile Include="Soma dos Pares e Média dos Ímpares.cpp" />
     <ClCompile Include="Somadosmúltiplosdeumnúmero.cpp" />
+    <ClCompile Include="Subtração de Matrizes com Função de Exibição.cpp" />
     <ClCompile Include="Switch\Case.cpp" />
     <ClCompile Include="Tabela de Tipos e Tamanhos .cpp" />
     <ClCompile Include="Texto e caractere.cpp" />
+    <ClCompile Include="Transposição de Matriz.cpp" />
     <ClCompile Include="TresValoresReal.cpp" />
     <ClCompile Include="Validador de acesso com contadores de condição.cpp" />
     <ClCompile Include="Validador de idade.cpp" />

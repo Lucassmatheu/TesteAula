@@ -4,8 +4,8 @@ using namespace std;
 void TransposicaoMatriz()
 {
     const int n = 3; // Tamanho da matriz
-    int matriz[n][n];
-    int transposta[n][n];
+    int matriz[n][n]{};
+    int transposta[n][n]{};
 
     // Leitura da matriz original
     for (int i = 0; i < n; i++)
