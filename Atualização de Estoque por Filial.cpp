@@ -29,10 +29,16 @@ void cadastrarProduto(string nomes[], int totais[], int estoqueFilial[][Num_Fili
 
     nomes[total] = nomeProduto;
     totais[total] = 0;
-
+    
+	// Solicita o estoque para cada filial
+	// Inicializa o estoque de cada filial para o produto atual
+    
     for (int j = 0; j < Num_Filiais; ++j) {
         cout << "Estoque da Filial " << (j + 1) << ": ";
+		// Lê a quantidade em estoque para a filial j
         cin >> estoqueFilial[total][j];
+		// Atualiza o total do produto somando o estoque da filial j
+		// total do produto = total do produto + estoque da filial j
         totais[total] += estoqueFilial[total][j];
     }
 

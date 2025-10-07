@@ -67,6 +67,9 @@
     <Filter Include="Arrays vetores e matrizes\matriz">
       <UniqueIdentifier>{bd5535f5-e4ec-4d7c-b562-afeb3f280e45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Orientação Objeto">
+      <UniqueIdentifier>{b7fa2efa-5506-45f9-af2d-e2557ae4c9d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -491,6 +494,36 @@
     </ClCompile>
     <ClCompile Include="Atualização de Estoque por Filial.cpp">
       <Filter>Arrays vetores e matrizes\matriz</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercício em POO.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Biblioteca Simples.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="OqueEClasse.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Criando classe.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Personagem RPG.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalha entre Classes Derivadas.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulador de Personagem com Mochila de Itens.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Personagens com Herança.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Animais na Floresta.cpp">
+      <Filter>Orientação Objeto</Filter>
+    </ClCompile>
+    <ClCompile Include="AVENTURA DOS PERSONAGENS.cpp">
+      <Filter>Orientação Objeto</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
