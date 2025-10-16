@@ -60,7 +60,7 @@ public:
     }
 };
 
-int main() {
+void RPG() {
     Personagem heroi("Lucas", 100, 30, 10);
     Personagem inimigo("Orc", 80, 25, 5);
 
@@ -104,5 +104,5 @@ int main() {
         }
     } while (opcao != 4 && heroi.estaVivo() && inimigo.estaVivo());
 
-    return 0;
+    return ;
 }

@@ -38,10 +38,11 @@ void menuJogo();
 void VariavelPonteiro();
 void ponteiroInteiro();
 
+
 //void MenuPrincipalRPG();
 void Vetores();
 // void MostrarVetor();
-void MenuEstoque(std::string& nomes, int* totais);
+void menuMagicos();
 
 
 #endif

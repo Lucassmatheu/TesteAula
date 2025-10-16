@@ -123,7 +123,7 @@ void menuEstoque() {
     } while (opcao != 4);
 }
 
-int main() {
+void estoque() {
     menuEstoque();
-    return 0;
+    return;
 }

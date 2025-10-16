@@ -70,6 +70,12 @@
     <Filter Include="Orientação Objeto">
       <UniqueIdentifier>{b7fa2efa-5506-45f9-af2d-e2557ae4c9d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Orientação Objeto\Ponteiro e Contrutores">
+      <UniqueIdentifier>{ae372255-96d0-40ef-bed8-f105944c89a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Orientação Objeto\Exercicios Com This">
+      <UniqueIdentifier>{aacc90c2-121b-4e79-87c9-976f1b2dd3aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -525,10 +531,49 @@
     <ClCompile Include="AVENTURA DOS PERSONAGENS.cpp">
       <Filter>Orientação Objeto</Filter>
     </ClCompile>
+    <ClCompile Include="Conta.cpp">
+      <Filter>Orientação Objeto\Ponteiro e Contrutores</Filter>
+    </ClCompile>
+    <ClCompile Include="Banco.cpp">
+      <Filter>Orientação Objeto\Ponteiro e Contrutores</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparar Personagens com this.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Aumentar Vida com this.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalha de Defesa.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Heroi.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventário e Itens Mágicos.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Combate entre Clãs.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Missão de RPG com Sistema de Energia e Experiência.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Criando um Sistema de Magias com this e Herança.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema de Missões e Rivalidade.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalha por Turno com 2 Classes.cpp">
+      <Filter>Orientação Objeto\Exercicios Com This</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">
       <Filter>ifndef</Filter>
+    </ClInclude>
+    <ClInclude Include="Conta.h">
+      <Filter>Orientação Objeto\Ponteiro e Contrutores</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

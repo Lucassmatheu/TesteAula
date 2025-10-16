@@ -83,7 +83,7 @@ public:
 };
 
 // Função principal
-int main() {
+void batalha() {
     Personagem* jogador = nullptr;
     Guerreiro guerreiro;
     Mago mago;
@@ -98,7 +98,7 @@ int main() {
     case 1: jogador = &guerreiro; break;
     case 2: jogador = &mago; break;
     case 3: jogador = &arqueiro; break;
-    default: cout << "Opção inválida."; return 0;
+    default: cout << "Opção inválida."; return;
     }
 
     Personagem inimigo("Goblin", 90, 18, 6);
@@ -134,5 +134,5 @@ int main() {
 
     } while (opcao != 3 && jogador->estaVivo() && inimigo.estaVivo());
 
-    return 0;
+    return ;
 }

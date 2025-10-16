@@ -102,7 +102,7 @@ public:
     }
 };
 
-int main() {
+void BibliotecaSimples() {
     Biblioteca biblioteca;
     int opcao;
 
@@ -148,5 +148,5 @@ int main() {
 
     } while (opcao != 4);
 
-    return 0;
+    return;
 }

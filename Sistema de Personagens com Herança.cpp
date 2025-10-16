@@ -104,7 +104,7 @@ bool estaVivo(const Personagem* p) {
     return p->vida > 0;
 }
 
-int main() {
+void Herança() {
     // Exemplo: escolha polimórfica dos personagens
     unique_ptr<Personagem> p1, p2;
     int escolha;
@@ -157,5 +157,5 @@ int main() {
     else
         cout << p2->nome << " venceu!\n";
 
-    return 0;
+    return;
 }

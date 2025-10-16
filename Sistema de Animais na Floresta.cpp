@@ -63,7 +63,7 @@ class passaro : public Animal
 		cout << nome << " está bicando sementes." << endl;
 	}
 };
-int main() 
+void Animais() 
 {
 	unique_ptr<Animal> animais[3];
 	animais[0] = make_unique<Leao>("Simba", 5);
@@ -75,5 +75,5 @@ int main()
 		animal->emitirSom();
 		cout << endl;
 	}
-	return 0;
+	return ;
 }

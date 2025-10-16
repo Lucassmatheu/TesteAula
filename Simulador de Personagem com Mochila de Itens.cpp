@@ -78,7 +78,7 @@ void PocaoCura::usar(Personagem& p) { p.curar(20); }
 void PocaoForca::usar(Personagem& p) { p.aumentarForca(10); }
 
 // Exemplo de uso
-int main() {
+void ain() {
     Personagem p("Lucas", 100, 20, 10);
     p.inserirItem(new PocaoCura());
     p.inserirItem(new PocaoForca());
@@ -87,5 +87,5 @@ int main() {
     p.exibirStatus();
     p.usarItem(1);
     p.exibirStatus();
-    return 0;
+    return ;
 }
