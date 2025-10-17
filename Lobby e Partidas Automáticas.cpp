@@ -9,6 +9,7 @@ class LobbyServidores : public Servidor
 	bool partidaEmnAndamento;
 	int Numconctados;
 	int ping;
+
 	string TimeA[2];
 	string TimeB[2];
 	string jogadores;
@@ -74,6 +75,7 @@ public:
 		for (int i = 0; i < Numconctados; ++i) {
 			
 		    
+			
 			
 			JogadorOnline[i].setPing(JogadorOnline[i].getPing() - 10);
 

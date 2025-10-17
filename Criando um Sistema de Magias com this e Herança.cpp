@@ -159,12 +159,7 @@ class Heroi
 			}
 
 		}
-		void Descansar()
-		{
-			energia += 40;
-			if(energia > 100) energia = 100;
-			cout << nome << " descansou e recuperou energia!" << endl;
-		}	
+	
 		
 
 };
@@ -240,7 +235,7 @@ class Necromante : public Heroi
 		}
 	}
 };	
-void menu()
+void menuMagia()
 {
 	int escolha;
 	cout << "Escolha sua classe:\n1-Mago\n2-Elfo\n3-Necromante\nOpcao: ";

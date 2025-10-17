@@ -5,7 +5,7 @@ void multiplicacaoMatrizes()
 {
 	const int n = 3; // Tamanho da matriz
 	int matrizA[n][n]{}, matrizB[n][n]{}, resultado[n][n] = { 0 };
-	int multiplicador;	
+	int multiplicador = 0;
 	
 	// Leitura da primeira matriz
 	for (int i = 0; i < n; i++) 

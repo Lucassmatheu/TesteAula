@@ -262,6 +262,7 @@
     <ClCompile Include="Sistema de Estoque MultiFiliais.cpp" />
     <ClCompile Include="Sistema de Login.cpp" />
     <ClCompile Include="SISTEMA DE LOJA RPG .cpp" />
+    <ClCompile Include="Sistema de Matchmaking Multiplayer.cpp" />
     <ClCompile Include="Sistema de Missões e Rivalidade.cpp" />
     <ClCompile Include="Sistema de Personagem RPG.cpp" />
     <ClCompile Include="Sistema de Personagens com Herança.cpp" />
@@ -293,6 +294,7 @@
     <ClCompile Include="VerificarNumeroPrimo.cpp" />
     <ClCompile Include="Verificação de login.cpp" />
     <ClCompile Include="Votação para o Melhor Jogador.cpp" />
+    <ClCompile Include="Whiler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conta.h" />
