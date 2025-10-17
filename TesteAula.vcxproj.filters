@@ -76,6 +76,9 @@
     <Filter Include="Orientação Objeto\Exercicios Com This">
       <UniqueIdentifier>{aacc90c2-121b-4e79-87c9-976f1b2dd3aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exercicios de MultiPlayer">
+      <UniqueIdentifier>{cf432ff9-d0f2-4ca1-a8e5-1f420516acb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AprenderProgramar.cpp">
@@ -567,6 +570,15 @@
     <ClCompile Include="Batalha por Turno com 2 Classes.cpp">
       <Filter>Orientação Objeto\Exercicios Com This</Filter>
     </ClCompile>
+    <ClCompile Include="Simulador de Servidor Multiplayer.cpp">
+      <Filter>Exercicios de MultiPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby e Partidas Automáticas.cpp">
+      <Filter>Exercicios de MultiPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>Exercicios de MultiPlayer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">
@@ -574,6 +586,9 @@
     </ClInclude>
     <ClInclude Include="Conta.h">
       <Filter>Orientação Objeto\Ponteiro e Contrutores</Filter>
+    </ClInclude>
+    <ClInclude Include="Online.h">
+      <Filter>Exercicios de MultiPlayer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
