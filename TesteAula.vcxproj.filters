@@ -585,6 +585,9 @@
     <ClCompile Include="Whiler.cpp">
       <Filter>do while</Filter>
     </ClCompile>
+    <ClCompile Include="Sistema de Chat e Replay de Partida Multiplayer.cpp">
+      <Filter>Exercicios de MultiPlayer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">

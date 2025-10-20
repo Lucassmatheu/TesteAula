@@ -5,7 +5,7 @@ using namespace std;
 
 class JogadorOnline
 {
- private:
+private:
 	string nome;
 	int ping;
 	bool Online;
@@ -58,7 +58,7 @@ public:
 	}
 };
 
-class Servidor 
+class Servidor
 {
 	// aqui e um atributo para saber quantos jogadores estao conectados
 	// aqui esta sendo feito um array de objetos da classe JogadorOnline
@@ -66,31 +66,31 @@ class Servidor
 	int numConectados;
 
 public:
-	void adicionarJogador(string nome, int ping) 
+	void adicionarJogador(string nome, int ping)
 	{
-		if (numConectados < 4) 
+		if (numConectados < 4)
 		{
 			jogadores[numConectados].conectar(nome, ping);
 			numConectados++;
-		} 
-		else 
+		}
+		else
 		{
 			cout << "Servidor cheio! Nao e possivel adicionar mais jogadores." << endl;
 		}
 	}
-	void removerJogador(string nome) 
+	void removerJogador(string nome)
 	{
 		// para i = 0; i < numConectados; i++
 		// percorrer o array de jogadores para encontrar o jogador com o nome passado como parametro
-		for (int i = 0; i < numConectados; i++) 
+		for (int i = 0; i < numConectados; i++)
 		{
 			// se o nome do jogador for igual ao nome passado como parametro
-			if (jogadores[i].getNome() == nome) 
+			if (jogadores[i].getNome() == nome)
 			{
 				// jogadores[i] esta desconectando o jogador
 				jogadores[i].desconectar();
 				// aqui esta removendo o jogador do array
-				for (int j = i; j < numConectados - 1; j++) 
+				for (int j = i; j < numConectados - 1; j++)
 				{
 					jogadores[j] = jogadores[j + 1];
 				}
@@ -102,11 +102,11 @@ public:
 		}
 		cout << "Jogador " << nome << " nao encontrado no servidor." << endl;
 	}
-	void atulizarPingJogador(string nome, int ping) 
+	void atulizarPingJogador(string nome, int ping)
 	{
-		for (int i = 0; i < numConectados; i++) 
+		for (int i = 0; i < numConectados; i++)
 		{
-			if (jogadores[i].getNome() == nome) 
+			if (jogadores[i].getNome() == nome)
 			{
 				jogadores[i].atualizarPing(ping);
 				return;
@@ -122,7 +122,7 @@ public:
 	}
 
 };
-void menuServidores() 
+void menuServidoress()
 {
 	int opcao;
 	cout << "=== Menu do Servidor Multiplayer ===" << endl;
@@ -133,11 +133,11 @@ void menuServidores()
 	cout << "4. Verificar se o Servidor esta Cheio" << endl;
 	cout << "5. Sair" << endl;
 	cin >> opcao;
-	while (opcao != 5) 
+	while (opcao != 5)
 	{
-		switch (opcao) 
+		switch (opcao)
 		{
-		case 1: 
+		case 1:
 		{
 			string nome;
 			int ping;
@@ -150,7 +150,7 @@ void menuServidores()
 			servidor.adicionarJogador(nome, ping);
 			break;
 		}
-		case 2: 
+		case 2:
 		{
 			string nome;
 			cout << "Digite o nome do jogador a ser removido: ";
@@ -158,7 +158,7 @@ void menuServidores()
 			servidor.removerJogador(nome);
 			break;
 		}
-		case 3: 
+		case 3:
 		{
 			string nome;
 			int ping;
@@ -171,11 +171,11 @@ void menuServidores()
 		}
 		case 4:
 		{
-			if (servidor.serviddorCheio()) 
+			if (servidor.serviddorCheio())
 			{
 				cout << "O servidor esta cheio!" << endl;
-			} 
-			else 
+			}
+			else
 			{
 				cout << "O servidor ainda tem vagas!" << endl;
 			}
@@ -185,8 +185,8 @@ void menuServidores()
 			cout << "Opcao invalida! Tente novamente." << endl;
 			break;
 		}
-	
+
 	}
-	
- 
+
+
 }

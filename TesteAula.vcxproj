@@ -257,6 +257,7 @@
     <ClCompile Include="Sistema de Batalha entre Jogadores .cpp" />
     <ClCompile Include="Sistema de Biblioteca Simples.cpp" />
     <ClCompile Include="Sistema de Busca de Produto por Índice.cpp" />
+    <ClCompile Include="Sistema de Chat e Replay de Partida Multiplayer.cpp" />
     <ClCompile Include="Sistema de Desbloqueio de Habilidades em Cadeia.cpp" />
     <ClCompile Include="Sistema de Energia e Experiência.cpp" />
     <ClCompile Include="Sistema de Estoque MultiFiliais.cpp" />
