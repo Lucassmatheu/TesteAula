@@ -151,6 +151,7 @@
     <ClCompile Include="Controle de Vagas de Estacionamento.cpp" />
     <ClCompile Include="Criando classe.cpp" />
     <ClCompile Include="Criando um Sistema de Magias com this e Herança.cpp" />
+    <ClCompile Include="Criar a estrutura básica do Matchmaking.cpp" />
     <ClCompile Include="Estoque Simples de Itens.cpp" />
     <ClCompile Include="Exercício em POO.cpp" />
     <ClCompile Include="FileName.cpp" />
@@ -185,6 +186,7 @@
     <ClCompile Include="Inventário Dinâmico com Ponteiros e Referências.cpp" />
     <ClCompile Include="Inventário e Itens Mágicos.cpp" />
     <ClCompile Include="Inventário RPG com preços.cpp" />
+    <ClCompile Include="sistema de  Servidor Dedicado com Log e Reconexão Dinâmica.cpp" />
     <ClCompile Include="istema de Gestão de Estoque de Produtos Relatório de Vendas.cpp" />
     <ClCompile Include="Jogo da Foca.cpp" />
     <ClCompile Include="Jogo de Batalha de Equipes.cpp" />
@@ -270,6 +272,7 @@
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Sistema de RPG com Missão de Caça.cpp" />
+    <ClCompile Include="Sistema de Servidor Dedicado com Reconexão Automática.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de duas matrizes.cpp" />
     <ClCompile Include="Soma de pares com while.cpp" />
