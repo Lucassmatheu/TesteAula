@@ -597,6 +597,9 @@
     <ClCompile Include="Criar a estrutura básica do Matchmaking.cpp">
       <Filter>Exercicios de MultiPlayer</Filter>
     </ClCompile>
+    <ClCompile Include="sistema de Servidor Dedicado com Log e Reconexão Dinâmica.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aulas.h">

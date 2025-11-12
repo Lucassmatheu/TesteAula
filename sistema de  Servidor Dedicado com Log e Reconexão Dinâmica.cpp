@@ -13,58 +13,67 @@
 
 using namespace std;
 
-class logEventos 
+class logEventos
 {
-    string nome;
+    std::string nome;
     bool online;
     char horario_completo[9] = "12:44:00";
 
 public:
-    logEventos(string n) : nome(n), online(false), horario_completo() {}
+    logEventos(std::string n) : nome(std::move(n)), online(false) {}
 
-
-    string getNome() const { return nome; }
+    std::string getNome() const { return nome; }
     bool EstaOnline() const { return online; }
 
     void IniciarServidor()
     {
         online = true;
-        cout << nome << " iniciado com sucesso!" << endl;
+        std::cout << nome << " iniciado com sucesso!" << std::endl;
 
         while (online)
         {
-            cout << "Servidor rodando..." << endl;
-            this_thread::sleep_for(chrono::seconds(2));
+            std::cout << "Servidor rodando..." << std::endl;
+            std::this_thread::sleep_for(std::chrono::seconds(2));
         }
 
-        cout << nome << " foi encerrado." << endl;
+        std::cout << nome << " foi encerrado." << std::endl;
     }
 
     void derrubarServidor()
     {
-        horario_completo;
         if (online)
         {
+            // registra horário atual em HH:MM:SS (MSVC usa localtime_s)
+            std::time_t t = std::time(nullptr);
+
+            #if defined(_MSC_VER)
+            std::tm tm{};
+            localtime_s(&tm, &t);
+            std::strftime(horario_completo, sizeof(horario_completo), "%H:%M:%S", &tm);
+            #else
+            std::tm* ptm = std::localtime(&t);
+            if (ptm) {
+                std::strftime(horario_completo, sizeof(horario_completo), "%H:%M:%S", ptm);
+            }
+            #endif
+
             online = false;
-            cout << horario_completo;
-            cout << "Servidor foi derrubado!" << endl;
+            std::cout << "[" << horario_completo << "] Servidor foi derrubado!" << std::endl;
         }
         else
         {
-            cout << "Servidor ja estava offline." << endl;
+            std::cout << "Servidor ja estava offline." << std::endl;
         }
     }
 
     bool statusServidor() const
     {
-        if (online == true)
-        {
-            cout << "Servidor esta online!" << endl;
-        }
+        if (online)
+            std::cout << "Servidor esta online!" << std::endl;
         else
-        {
-            cout << "Servidor esta offline!" << endl;
-        }
+            std::cout << "Servidor esta offline!" << std::endl;
+
+        return online;
     }
 };
 class Conexcao :public logEventos
@@ -101,7 +110,7 @@ public:
             }
         }
     }
-    void tentarReconectar(logEventos& servidor)
+    void tentarReconectar(Servidor& servidor)
     {
         JogadorOnline* Jogador = nullptr;
 
@@ -143,7 +152,7 @@ public:
                 << "ms - " << (jogador.isOnline() ? "🟢 Online" : "🔴 Offline") << endl;
         }
     }
-    void reconexaoDinamica(Servidor& servidor)
+   void reconexaoDinamica(Servidor& servidor)
     {
 
         int tentava = 0;
@@ -211,7 +220,8 @@ static void menuServidor()
             conexao.simularFalha();
             break;
         case 3:
-            conexao.tentarReconectar(servidor);
+            void tentarReconectar(Servidor & servidor);
+
             break;
         case 4:
             conexao.mostrarStatusJogadores();

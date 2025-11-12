@@ -3,6 +3,33 @@
 #include <string>
 using namespace std;
 
+// Você pode usar o construtor padrão para inicializar os atributos do objeto com valores padrão
+// para evitar valores indesejados ou lixo de memória.
+Conta::Conta()
+{
+	// aqui mais uma ves o this stá implicito seria o mesmos que this -> Banco
+	Banco = "Desconhecido";
+	Agencia = 0;
+	NumConta = 0;
+	Titular = "Desconhecido";
+	Saldo = 0.0;
+
+}
+
+// construtor com parametros esta sendo definido para inicializar os atributos do objeto
+// quando o objeto for criado
+Conta::Conta(std::string banco, int agencia, int numConta, std::string titular, double saldo)
+{
+	// Atibulto this e um ponteiro que aponta para o objeto atual
+	// que esta sendo criado ou manipulado 
+	// para acessar os atributos do objeto atual usa-se
+	this -> Banco = banco;
+	this -> Agencia = agencia;
+	this -> NumConta = numConta;
+	this -> Titular = titular;
+	this -> Saldo = saldo;
+}
+
 bool Conta:: sacar(double valor)
 {
 	// se o saldo for menor que o valor do saque
@@ -15,7 +42,9 @@ bool Conta:: sacar(double valor)
 		return false;
 
 	}
+	// Não havendo saldo suficiente para o saque
 	else {
+		// realiza o saque
 		Saldo = valor;
 		cout << "Seu Saldo Atual: R$" << consultarSaldo() << endl;
 		return true;

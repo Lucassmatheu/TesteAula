@@ -5,7 +5,9 @@
 using namespace std;
 
 void Banco() {
-	Conta ContaCliente01;
+	// como esta dessa forma obejto seria criado usando o construtor padrao automatico 
+	// conhecido como contrutor padrão ou construtor default
+	Conta ContaCliente01("Itau",222,5555,"Marcos",10000);
 	Conta ContraCliente02;
 	ContaCliente01.setBanco("Banco do Brasil");
 	ContaCliente01.setAgencia(1234);

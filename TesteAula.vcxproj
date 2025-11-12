@@ -272,6 +272,7 @@
     <ClCompile Include="Sistema de pontuação com validações booleanas.cpp" />
     <ClCompile Include="Sistema de pontuação por categoria.cpp" />
     <ClCompile Include="Sistema de RPG com Missão de Caça.cpp" />
+    <ClCompile Include="sistema de Servidor Dedicado com Log e Reconexão Dinâmica.cpp" />
     <ClCompile Include="Sistema de Servidor Dedicado com Reconexão Automática.cpp" />
     <ClCompile Include="Soma até para.cpp" />
     <ClCompile Include="Soma de duas matrizes.cpp" />
